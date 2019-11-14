@@ -1,0 +1,1468 @@
+<html>
+
+<head>
+
+
+
+<title>Vvork Developer</title>
+
+<link rel="stylesheet" href="aos/aos.css" type="text/css">
+
+<script src="aos/aos.js"></script>
+
+<style>
+
+*{
+margin:0px;
+padding:0px;
+}
+#first{
+position:relative;
+height:100%;
+width:100%;
+background:url(css/work.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+#header{
+position:fixed;
+top:0px;
+background-color:rebeccapurple;
+width:100%;
+height:70px;
+animation-name:m;
+animation-duration:30s;
+animation:iteration-count:infinite;
+animation-delay:3s;
+animation-play-state:running;
+}
+.gion{
+position:absolute;
+top:0px;
+height:70px;
+left:105px;
+}
+#header ul{
+list-style:none;
+margin-left:600px;
+}
+#header ul li{
+float:left;
+margin-top:20px;
+text-align:center;
+padding:6px;
+width:60px;
+margin-left:30px;
+border-radius:20px;
+height:25px;
+}
+
+@keyframes m{
+10%{background-color:hotpink;}
+20%{background-color:aqua;}
+30%{background-color:lightblue;}
+40%{background-color:grey;}
+50%{background-color:gold;}
+60%{background-color:royalblue;}
+70%{background-color:rebeccapurple;}
+80%{background-color:yellow;}
+90%{background-color:darkseagreen;}
+100%{background-color:antiquewhite;
+}
+
+}
+#first h1{
+position:absolute;
+top:32%;
+left:14.5%;
+color:white;
+font-family:calibari;
+font-size:40px;
+}
+#first p{
+position:absolute;
+top:39%;
+left:14.5%;
+font-size:20px;
+font-family:calibari;
+color:white;
+text-align:left;
+right:30%;
+}
+button{
+
+    font-size:2em;
+    background: aqua;
+    color:white;
+    padding:16px;
+     border:0.25rem solid aqua;
+     position:relative;
+     z-index:1;
+     overflow: hidden;
+	top:320px;
+	left:150px;	
+}
+button:hover{
+    background:orange;
+}
+button::after{
+content:'';
+background:chocolate;
+position:absolute;
+z-index:-1;
+padding:0.85em 0.75em;
+display:block;
+}
+button[class^="slide"]::after{
+    transition: all 3.5s;
+}
+button[class^="slide"]:hover::after{
+    left:0px;
+    right:0;
+    top:0;
+    bottom:0;
+    transition: all 1s;
+}
+button.slide_from_left::after{
+    top:0;
+    bottom:0;
+    left:-100%;
+    right:100%;
+
+}
+#second{
+position:relative;
+width:100%;
+height:55%;
+top:0%;
+}
+#pic1{
+position:absolute;
+top:0px;
+height:100%;
+width:33%;
+background:chocolate;
+}
+#img{
+position:absolute;
+top:13%;
+height:26%;
+left:41%;
+border-radius:100%;
+width:22%;
+background:powderblue;
+}
+#img .setting{
+position:absolute;
+top:15%;
+left:4%;
+height:70%;
+width:90%;
+}
+#pic2{
+position:absolute;
+top:0px;
+height:100%;
+width:33%;
+background:darkorange;
+left:33%;
+}
+#img2{
+position:absolute;
+top:13%;
+height:26%;
+left:41%;
+border-radius:100%;
+width:22%;
+background:powderblue;
+}
+#img2 .diamond{
+position:absolute;
+top:0%;
+left:4%;
+height:100%;
+width:90%;
+}
+#pic3{
+position:absolute;
+top:0px;
+height:100%;
+width:34%;
+background:orange;
+left:66%;
+}
+#img3{
+position:absolute;
+top:13%;
+height:26%;
+left:41%;
+border-radius:100%;
+width:22%;
+background:powderblue;
+}
+#img3 .pen{
+position:absolute;
+top:15%;
+left:20%;
+height:65%;
+width:65%;
+}
+#pic1 .unique, #pic2 .easy, #pic3 .online{
+position:absolute;
+top:43%;
+left:25%;
+font-family:calibari;
+font-size:37px;
+color:white;
+}
+#para{
+position:absolute;
+text-align:center;
+top:55%;
+left:13%;
+right:15%;
+font-size:18px;
+color:silver;
+}
+.read_more{
+position:absolute;
+top:80%;
+left:38.5%;
+right:38.5%;
+font-size:17px;
+}
+.read_more a{
+text-decoration:none;
+color:white;
+}
+
+#feature{
+width:100%;
+height:100%;
+position:relative;
+top:0%;
+}
+#feature h1{
+position:absolute;
+top:10%;
+font-size:40px;
+left:40%;
+color:purple;
+font-family:calibari;
+}
+#f1{
+width:38%;
+height:30%;
+position:absolute;
+top:30%;
+left:10%;
+transition-duration:1s;
+transition-property:top;
+box-shadow:0px 0px 5px 5px #E8E8E8;
+}
+#f1:hover{
+top:29%;
+box-shadow:0px 0px 17px 0px black;
+border-radius:15px;
+}
+#img4{
+height:40%;
+width:18%;
+position:absolute;
+top:19%;
+left:5%;
+background:darkorange;
+border-radius:100%;
+}
+#img4 .rocket{
+height:50%;
+width:70%;
+position:absolute;
+top:27%;
+left:15%;
+}
+#f2{
+width:38%;
+height:30%;
+position:absolute;
+top:30%;
+left:50%;
+transition:1s;
+box-shadow:0px 0px 5px 5px #E8E8E8;
+}
+#f2:hover{
+top:29%;
+box-shadow:0px 0px 17px 0px black;
+border-radius:15px;
+}
+#img5{
+height:40%;
+width:18%;
+position:absolute;
+top:19%;
+left:5%;
+background:darkorange;
+border-radius:100%;
+}
+#img5 .setting{
+height:50%;
+width:70%;
+position:absolute;
+top:27%;
+left:15%;
+}
+
+#f3{
+width:38%;
+height:30%;
+position:absolute;
+top:65%;
+left:10%;
+transition-duration:1s;
+transition-property:top;
+box-shadow:0px 0px 5px 5px #E8E8E8;
+}
+#f3:hover{
+top:64%;
+box-shadow:0px 0px 17px 0px black;
+border-radius:15px;
+}
+#f3 #img4{
+height:40%;
+width:18%;
+position:absolute;
+top:19%;
+left:5%;
+background:darkorange;
+border-radius:100%;
+}
+#f3 #img4 .daimond1{
+height:50%;
+width:70%;
+position:absolute;
+top:27%;
+left:15%;
+}
+#f4{
+width:38%;
+height:30%;
+position:absolute;
+top:65%;
+left:50%;
+transition:1s;
+box-shadow:0px 0px 5px 5px #E8E8E8;
+}
+#f4:hover{
+top:64%;
+box-shadow:0px 0px 17px 0px black;
+border-radius:15px;
+}
+#f4 #img5{
+height:40%;
+width:18%;
+position:absolute;
+top:19%;
+left:5%;
+background:darkorange;
+border-radius:100%;
+}
+#f4 #img5 .pen{
+height:50%;
+width:70%;
+position:absolute;
+top:27%;
+left:15%;
+}
+.deva, .ill, .web, .brand{
+position:absolute;
+top:20%;
+color:gery;
+left:30%;
+font-size:25px;
+font-family:calibari;
+}
+.text{
+position:absolute;
+top:40%;
+left:27%;
+right:4.5%;
+text-align:justify;
+color:silver;
+font-size:20px;
+font-family:calibari;
+}
+
+#feature2{
+position:relative;
+width:100%;
+height:585px;
+top:0%;
+background-color:grey;
+}
+.laptop{
+width:50%;
+height:100%;
+position:absolute;
+top:0px;
+}
+#one, #tow, #three{
+position:absolute;
+top:0px;
+height:50%;
+background:white;
+width:16.5%;
+border:1px solid silver;
+}
+
+#four, #five, #six{
+position:absolute;
+top:50%;
+height:50%;
+background:white;
+width:16.5%;
+border:1px solid silver;
+}
+#one, #four{
+left:50%;
+}
+#tow, #five{
+left:66.6%;
+}
+#three, #six{
+left:83.2%;
+}
+#one h4, #tow h4, #three h4, #four h4, #five h4, #six h4{
+position:absolute;
+top:27%;
+left:15%;
+color:darkorange;
+font-family:calibari;
+font-size:30px;
+} 
+#one .one, #tow .one, #three .one, #four .one, #five .one, #six .one{
+position:absolute;
+top:50%;
+left:17%;
+text-align:justify;
+font-size:19px;
+color:white;
+}
+#one:hover, #tow:hover, #three:hover, #four:hover, #five:hover, #six:hover{
+background:blue;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6{
+position:absolute;
+top:5%;
+height:15%;
+width:20%;
+left:15%;
+}
+#portfolio{
+position:relative;
+top:10%;
+height:370px;
+width:100%;
+background:url(img/world2.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;
+}
+#circle1, #circle2, #circle3, #circle4{
+position:absolute;
+top:25%;
+height:140px;
+font-size:25px;
+color:white;
+text-align:center;
+padding-top:60px;
+transition-duration:1s;
+transition-property:all;
+}
+#circle1{
+width:13%;
+left:130px;
+}
+#circle2{
+width:14%;
+left:440px;
+}
+#circle3{
+width:13%;
+left:700px;
+}
+#circle4{
+width:13%;
+left:970px;
+}
+#circle1:hover, #circle2:hover, #circle3:hover, #circle4:hover{
+color:red;
+border-radius:100%;
+background:yellow;
+}
+
+#portfolio2{
+position:relative;
+height:180%;
+width:100%;
+}
+
+#group1, #group2, #group3{
+position:relative;
+top:5.5%;
+height:33%;
+width:100%;
+}
+#group1 img, #group3 img{
+height:100%;
+width:50%;
+position:absolute;
+}
+#group2 img{
+height:100%;
+width:50%;
+position:absolute;
+left:50%;
+}
+#group1 h3, #group3 h3{
+position:absolute;
+top:20%;
+font-size:22px;
+left:55%;
+}
+#group2 h3{
+position:absolute;
+top:20%;
+font-size:22px;
+left:5%;
+}
+#group1 h2, #group3 h2{
+position:absolute;
+top:35%;
+color:darkblue;
+font-family:calibari;
+font-size:35px;
+left:55%;
+right:8%;
+}
+#group2 h2{
+position:absolute;
+top:35%;
+color:darkblue;
+font-family:calibari;
+font-size:35px;
+left:5%;
+right:55%;
+}
+#group1 p, #group3 p{
+position:absolute;
+top:73%;
+font-family:calibari;
+font-size:18px;
+color-gery;
+left:55%;
+right:8%;
+}
+#group2 p{
+position:absolute;
+top:65%;
+font-family:calibari;
+font-size:18px;
+color:gery;
+right:55%;
+left:5%;
+}
+#works{
+width:100%;
+height:140%;
+position:relative;
+top:10%;
+background:whitesmoke;
+}
+#works h1{
+position:absolute;
+top:9%;
+font-size:40px;
+left:43%;
+color:darkblue;
+}
+#pics{
+position:relative;
+height:650px;
+width:100%;
+top:20%;
+}
+.work1, .work2, .work3{
+position:relative;
+top:25px;
+height:46%;
+width:447px;
+transition-duration:1s;
+}
+.work4, .work5, .work6{
+position:relative;
+top:3%;
+height:46%;
+width:447px;
+transition-duration:1s;
+}
+.work1:hover, .work2:hover, .work3:hover, .work4:hover, .work5:hover, .work6:hover{
+transform:scale(1.03);
+}
+
+#works button{
+position:absolute;
+top:840px;
+left:600px;
+width:150px;
+height:70px;
+border:2px solid red;
+z-index:1;
+background:green;
+}
+#works button:hover{
+color:#3498db;
+background:yellow;
+}
+#works button::after{
+content:'';
+background:yellow;
+position:absolute;
+color:red;
+z-index:-1;
+display:block;
+top:100px;
+bottom:-100px;
+left:0px;
+right:0px;
+}
+#works button:hover::after{
+transition:all;
+}
+
+
+
+
+
+
+
+
+#price{
+height:750px;
+width:100%;
+position:relative;
+top:10%;
+}
+
+#price h1{
+position:absolute;
+top:10%;
+left:43%;
+font-family:calibari;
+font-size:40px;
+color:black;
+}
+#price1{
+position:absolute;
+top:30%;
+width:350px;
+box-shadow:0px 0xp 5px 5px #f5f5f5f5;
+height:400px;	
+transition-duration:0.2s;
+transition-property:top;
+background:white;
+}
+#price3{
+position:absolute;
+top:30%;
+width:350px;
+box-shadow:0px 0xp 5px 5px #f5f5f5f5;
+height:400px;
+transition-duration:0.2s;
+transition-property:top;
+background:white;
+}
+#price2{
+position:absolute;
+top:25%;
+left:37%;
+width:380px;
+height:450px;
+background:white;
+box-shadow:0px 0xp 5px 5px #f5f5f5f5;
+transition-duration:0.2s;
+transition-property:top;
+}
+#price1{left:6%;}
+
+#price3{left:70%;}
+
+
+#price1:hover, #price3:hover{
+top:28%;
+}
+#price2:hover{
+top:23%;
+}
+.bro{
+position:absolute;
+top:7%;
+left:10%;
+font-size:35px;
+font-family:calibari;
+}
+.rock{
+position:absolute;
+top:2%;
+opacity:0.3;
+left:63.5%;
+height:120px;
+}
+h2{
+position:absolute;
+top:23%;
+color:black;
+left:23%;
+font-size:25px;
+}
+.list{
+position:absolute;
+top:45%;
+left:10%;
+font-size:20px;
+color:dimgray;
+font-family:calibari;
+list-style-type:none;
+
+}
+.orange{
+position:absolute;
+top:80%;
+left:23%;
+color:white;
+font-size:18px;
+border-radius:40px;
+height:50px;
+width:200px;
+background:darkorange;
+outline:none;
+}
+#worktogether{
+height:50%;
+width:100%;
+position:relative;
+top:10%;
+background:url(css/glashier1.jpg);
+background-reperat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+}
+#worktogether h1{
+position:absolute;
+top:15%;
+left:35%;
+font-size:50px;
+color:white;
+font-family:calibari;
+}
+#worktogether p{
+position:absolute;
+top:40%;
+left:25%;
+right:25%;
+font-size:20px;
+text-align:center;
+color:white;
+}
+#worktogether button{
+position:absolute;
+top:60%;
+left:40%;
+width:200px;
+height:50px;
+background:darkorange;
+font-family:calibari;
+font-size:20px;
+outline:none;
+border-radius:30px;
+color:white;
+}
+#blog{
+width:100%;
+height:920px;
+position:relative;
+top:10%;
+}
+#blog h1{
+position:absolute;
+top:10%;
+left:42%;
+font-size:40px;
+color:rebeccapurple;
+font-family:calibari;
+}
+.blog01, .blog02, .blog03{
+position:absolute;
+top:26%;
+height:240px;
+}
+.blog01{left:8%;
+}
+.blog02{left:37%;
+}
+.blog03{left:66%;
+}
+.blog1, .blog2, .blog3{
+height:250px;
+width:330px;
+position:absolute;
+top:51%;
+border:1px solid black;
+font-size:18px;
+box-shadow:0px 0px 5px 5px silver;
+}
+.blog1{left:9%;}
+
+.blog2{left:38%;}
+
+.blog3{left:67%;}
+
+.heading{
+position:absolute;
+top:12%;
+left:10%;
+font-size:30px;
+font-family:calibari;
+}
+.date{
+position:absolute;
+top:34%;
+left:12%;
+font-family:calibari;
+font-size:17px;
+color:silver;
+}
+.no{
+position:absolute;
+top:45%;
+left:12%;
+right:12%;
+font-family:calibari;
+font-size:17px;
+color:gery;
+}
+.more{
+position:absolute;
+top:80%;
+left:36%;
+color:orange;}
+#blog button{
+position:absolute;
+height:50px;
+width:150px;
+top:84%;
+left:45%;
+text-align:center;
+color:white;
+outline:none;
+background:darkorange;
+border-radius:30px;
+}
+#contact{
+position:relative;
+top:7%;
+height:300px;
+width:100%;
+background:black;
+}
+#contact .qwe{
+margin:30px 70px;
+padding:60px 0px 0px 4%;
+line-hight:300%;
+list-style:none;
+}
+#contact a{
+text-decoration:none;
+color:lightgery;
+font-size:200%;
+}
+#contact ul+ ul{
+position:absolute;
+line-hight:300%;
+list-style:none;
+float:left;
+text-align:left;
+left:-20px;
+right:20%;
+margin:auto;
+width:50%;
+height:78%;
+top:18%;
+display:block;
+}
+#contact ul +ul> li{
+color:white;
+}
+#contact h1{
+position:absolute;
+left:40%;
+top:5%;
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<div id="first">
+
+<div id="header">
+
+<img class="gion" src="img/logo.png">
+
+<ul>
+
+<li style="background-color:darkorange; color:white;">Contact</li>
+<li style="background-color:darkorange; color:white;">Blog</li>
+<li style="background-color:darkorange; color:white;">Price</li>
+<li style="background-color:darkorange; color:white;">Clients</li>
+<li style="background-color:darkorange; color:white;">portfolio</li>
+<li style="background-color:darkorange; color:white;">Feature</li>
+<li style="background-color:darkorange; color:white;">Home</li>
+
+<ul>
+
+</div>
+
+<h1>We are<span style="color:darkblue">Creative Studio</span></h1>
+<p>Mori Mattie Felies daim is does at At nun.Dunis vvork Cloud vvork Cloud vvork Cloud vvork Cloud diam nin justo</p>
+<button class="slide_from_left">READ MORE</button>
+
+</div> <!-- first end -->
+
+<div id="second">
+
+<div id="pic1"data-aos="fade-up" data-aos-easing="linear-cubic" data-aos-duration="1000">
+
+<center><p class="unique">Unique Design</p></center>
+
+<p id="para">No mea Facer fablous ommite te de unique vvorkcloud</p>
+<p class="Read_More"><a href="#">Read More</a></p>
+
+
+<div id="img"><img class="setting" src="img/setting.png">
+
+
+</div> <!-- img end -->
+
+
+</div> <!-- pic1 end -->
+
+<div id="pic2" data-aos="fade-up" data-aos-easing="linear-cubic" data-aos-duration="1000">
+
+<center><p class="easy">Easy Customization</p></center>
+
+<p id="para">No mea Facer fablous ommite te de unique vvorkcloud</p>
+<p class="Read_More"><a href="#">Read More</a></p>
+
+
+
+<div id="img2"><img class="diamond" src="img/diamond1.png">
+
+</div> <!-- img2 end -->
+
+</div> <!-- pic2 end -->
+
+<div id="pic3" data-aos="fade-up" data-aos-easing="linear-cubic" data-aos-duration="1000">
+
+<center><p class="online">Online Support</p></center>
+
+<p id="para">No mea Facer fablous ommite te de unique vvorkcloud</p>
+<p class="Read_More"><a href="#">Read More</a></p>
+
+
+<div id="img3"><img class="pen" src ="img/pen.png">
+
+
+</div> <!-- img3 end -->
+
+
+</div> <!-- pic3 end -->
+
+
+
+
+
+</div> <!-- second end -->
+
+<div id="feature">
+
+<h1><b>Our Features</b></h1>
+
+<div id="f1">
+
+<div id="img4">
+
+<img class="rocket" src="img/rocket1.png">
+
+</div> <!-- img2 end -->
+
+<p class="web">Web Design</p>
+<p class="text">Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud
+ Vvorl Cloud Vvorl Cloud Vvorl Cloud</p>
+
+
+
+</div> <!-- f1 end -->
+
+
+<div id="f2">
+
+<div id="img5">
+
+<img class="setting" src="img/setting.png">
+
+
+
+</div> <!-- img5 end -->
+<p class="Brand">Branding</p>
+<p class="text">Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud
+ Vvorl Cloud Vvorl Cloud Vvorl Cloud</p>
+
+
+
+</div> <!-- f2 end -->
+
+
+
+
+
+<div id="f3">
+
+<div id="img4">
+
+<img class="rocket" src="img/diamond1.png">
+
+</div> <!-- img4 end -->
+
+<p class="deva">Development</p>
+<p class="text">Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud
+ Vvorl Cloud Vvorl Cloud Vvorl Cloud</p>
+
+</div> <!-- f3 end -->
+
+
+<div id="f4">
+
+<div id="img5">
+
+<img class="setting" src="img/pen.png">
+
+
+</div> <!-- img5 end -->
+
+<p class="ill">Illustration</p>
+<p class="text">Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud Vvorl Cloud
+ Vvorl Cloud Vvorl Cloud Vvorl Cloud</p>
+
+
+</div> <!-- f4 end -->
+
+</div> <!-- feature end -->
+
+<div id="feature2">
+
+<img class="laptop" src="img/forth.jpg" data-aos="zoom-in" data-aos-easing="linear-cubic" data-aos-duration="2000">
+
+<div id="one" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="i1" src="img/pen.png">
+
+<h4>Design</h4>
+
+<p class="one">Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud 
+Vvork Cloud Vvork Cloud </p>
+
+</div> <!-- one end -->
+
+<div id="tow" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+
+<img class="i2" src="img/rocket1.png">
+
+<h4>Branding</h4>
+
+<p class="one">Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud 
+Vvork Cloud Vvork Cloud </p>
+
+</div> <!-- tow end -->
+
+
+<div id="three"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="i3" src="img/diamond1.png">
+
+<h4>Photography</h4>
+
+<p class="one">Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud 
+Vvork Cloud Vvork Cloud </p>
+
+</div> <!-- three end -->
+
+
+<div id="four"  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="i4" src="img/che.jpg">
+
+<h4>Illustration</h4>
+
+<p class="one">Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud 
+Vvork Cloud Vvork Cloud </p>
+
+
+</div> <!-- four end -->
+
+<div id="five"  data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="3000">
+
+<img class="i5" src="img/setting.png">
+
+<h4>Development</h4>
+
+<p class="one">Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud 
+Vvork Cloud Vvork Cloud </p>
+
+
+</div> <!-- five end -->
+
+<div id="six"  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="i6" src="img/speaker.png">
+
+<h4>Marketing</h4>
+
+<p class="one">Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud 
+Vvork Cloud Vvork Cloud </p>
+
+
+</div> <!-- six end -->
+
+</div> <!-- feature2 end -->
+
+
+<div id="portfolio">
+
+<div id="circle1" data-aos="fade-right"><span style="font-size:160%;">45</span><br>Happy Clients</div>
+
+<div id="circle2" data-aos="fade-right"><span style="font-size:160%;">120</span><br>Project Complete</div>
+
+<div id="circle3" data-aos="fade-right"><span style="font-size:160%;">86</span><br>Award Won</div>
+
+<div id="circle4" data-aos="fade-right"><span style="font-size:160%;">13</span>k<br>Lines of Code</div>
+
+</div> <!-- portfolio end -->
+
+<div id="portfolio2">
+
+
+<div id="group1">
+
+<img src="img/group1.jpg" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<h3>01.</h3>
+
+<h2>Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud</h2>
+
+<p>Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud
+Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud.</P>
+
+</div> <!-- group1 end -->
+
+<div id="group2">
+
+
+<img src="img/group2.jpg" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<h3>02.</h3>
+
+<h2>Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud</h2>
+
+<p>Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud
+Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud.</P>
+
+
+
+</div> <!-- group2 end -->
+
+<div id="group3">
+
+
+<img src="img/group3.jpg" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<h3>03.</h3>
+
+<h2>Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud</h2>
+
+<p>Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud
+Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud.</P>
+
+
+
+</div> <!-- group3 end -->
+
+</div> <!-- portfolio2 end -->
+
+
+<div id="works">
+
+<h1>"Our Work"</h1>
+
+<div id="pics">
+
+<img class="work1" src="img/work01.jpg" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="work2" src="img/work02.jpg" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="work3" src="img/work03.jpg" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="work4" src="img/work04.jpg" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="work5" src="img/work05.jpg" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+<img class="work6" src="img/work06.jpg" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+
+</div> <!-- pics end -->
+
+<button>More</button>
+
+
+</div> <!-- works end -->
+
+<div id="price">
+
+<h1>Pricing</h1>
+
+
+<div id="price1">
+
+	<p class="bro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Bronz Plan</p>
+<img class="rock" src="img/rocket1.png">
+<h2 data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">$
+<span style="font-size:200%; color:blue;">9</span>month</h2>
+
+
+<ul class="list" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+<li><img src="img/check-mark.png" height="3%;">1 GB Storage</li>
+
+<li><img src="img/check-mark.png" height="3%;">3 Domain Name</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">10 GB Bandwidth</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">100 Email Account</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">24/24 support</li>
+
+</ul>
+
+<button type="button" class="orange" data-aos="zoom-right-out" data-aos-easing="linear" data-aos-duration="1500">
+Purchase Now</button>
+
+</div>
+
+
+<div id="price2">
+
+<p class="bro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Gold Plan</p>
+<img class="rock" src="img/pen.png">
+<h2 data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">$
+<span style="font-size:200%; color:blue;">39</span>/month</h2>
+
+<ul class="list" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+<li><img src="img/check-mark.png" height="3%;">1 GB Storage</li>
+
+<li><img src="img/check-mark.png" height="3%;">3 Domain Name</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">10 GB Bandwidth</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">100 Email Account</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">24/24 support</li>
+
+</ul>
+
+<button type="button" class="orange" data-aos="zoom-right-out" data-aos-easing="linear" data-aos-duration="1500">
+Purchase Now</button>
+
+
+</div>
+
+
+<div id="price3">
+
+<p class="bro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Gold Plan</p>
+<img class="rock" src="img/rocket1.png">
+<h2 data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">$
+<span style="font-size:200%; color:blue;">9</span>/month</h2>
+
+<ul class="list" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+<li><img src="img/check-mark.png" height="3%;">1 GB Storage</li>
+
+<li><img src="img/check-mark.png" height="3%;">3 Domain Name</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">10 GB Bandwidth</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">100 Email Account</li>
+
+<li style="text-decoration-line:line-through;"><img src="img/cross.png" height="3%;">24/24 support</li>
+
+</ul>
+
+<button type="button" class="orange" data-aos="zoom-right-out" data-aos-easing="linear" data-aos-duration="1500">
+Purchase Now</button>
+
+</div>
+
+</div> <!-- price end -->
+
+<div id="worktogether">
+
+<h1 data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">Let's Work Togethet</h1>
+
+<p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">Vvork Cloud Vvork Cloud
+Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud Vvork Cloud</p>
+
+<button type="button" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="900">
+GET STARTED!</button>
+
+</div> <!-- worktogether end -->
+
+<div id="blog">
+
+<h1>Latest News</h1>
+
+<img class="blog01" src="img/blog01.jpg" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
+
+<img class="blog02" src="img/blog02.jpg" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
+
+<img class="blog03" src="img/blog03.jpg" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
+
+
+<div class="blog1" data-aos="fade-up"data-aos-easing="linear"data-aos-duration="900">
+
+<p class="heading"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Blog Title Goes Here</p>
+
+<p class="date"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Nov 17, 2018</P>
+
+<p class="no"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Vvork cloud Vvork cloud
+Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud</p>
+
+<p class="more"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">
+Read More</p>
+
+
+</div> <!-- blog 1 end -->
+
+<div class="blog2" data-aos="fade-up"data-aos-easing="linear"data-aos-duration="900">
+
+<p class="heading"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Blog Title Goes Here</p>
+
+<p class="date"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Nov 17, 2018</P>
+
+<p class="no"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Vvork cloud Vvork cloud
+Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud</p>
+
+<p class="more"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">
+Read More</p>
+
+
+
+</div> <!--  blog 2 end -->
+
+
+<div class="blog3	" data-aos="fade-up"data-aos-easing="linear"data-aos-duration="900">
+
+<p class="heading"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Blog Title Goes Here</p>
+
+<p class="date"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Nov 17, 2018</P>
+
+<p class="no"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">Vvork cloud Vvork cloud
+Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud Vvork cloud</p>
+
+<p class="more"data-aos="fade-right"data-aos-easing="linear"data-aos-duration="900">
+Read More</p>
+
+</div> <!-- blog 3 end -->
+
+<button type="button"data-aos="fade-right"data-aos-easing="ease-in-sine"data-aos-duration="3000">
+VISIT BLOG</button>
+
+
+</div> <!-- blog end -->
+
+<div id="contact">
+
+<h1>Contact Us</h1>
+
+
+<ul class="qwe">
+
+<li><a href="#"><i class="fa fa-phone"></i></a></li>
+
+<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+
+<li><a href="#"><i class="fa fa-map-marker"></i></a></li>
+
+
+</ul>
+
+<ul>
+
+<li>0321-1234567</li>
+<li>abc786@gmail.com</li>
+<li>Lahore,Pakistan</li>
+
+</ul>
+
+<div id="footer">
+
+
+
+</div> <!-- footer end -->
+
+
+</div> <!-- contact end -->
+
+
+
+
+
+
+
+
+<script>
+AOS.init();
+</script>
+
+</body>
+
+
+
+
+
+</html>
